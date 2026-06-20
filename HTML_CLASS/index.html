@@ -2,6 +2,14 @@
 <html>
 <head>
     <title>Full Stack Training </title>
+    <style>
+        .font{
+            color:red;
+        }
+        p{
+            color:blue;
+        }
+    </style>
 </head>
 <body>
     <!---Heading Tags --->
@@ -49,5 +57,59 @@
         <dt>JavaScript</dt>
         <dd>A programming language for web development</dd>
     </dl>
+
+    <!---Table Tag --->
+    <table border="1">
+
+    <caption>
+        Student Marks
+    </caption>
+
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Score</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Alice</td>
+            <td>95</td>
+        </tr>
+
+        <tr>
+            <td>Bob</td>
+            <td>88</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td>Average</td>
+            <td>91.5</td>
+        </tr>
+    </tfoot>
+
+</table>
+
+<!--audio tag-->
+<audio controls loop >
+    <source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Sevish_-__nbsp_.mp3" type="audio/mpeg">
+</audio>
+
+<!--iframe-->
+<iframe src="https://www.x.com" width="600" height="400"></iframe>
+
+<!--form tag -->
+<form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"required>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <br>
+    <input type="submit" value="Submit">
+</form>
 </body>
 </html>
