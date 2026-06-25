@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Contact Us</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial;
+background:rgb(233,239,240);
+}
+
+.navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: rgb(43, 131, 160);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        position:sticky;
+        top: 0;
+    }
+    .logo img {
+        height: 50px;
+        background-color: rgb(174, 215, 219);
+    }
+
+.box1{
+display:flex;
+gap:40px;
+}
+
+.box{
+border:2px solid black;
+background:rgb(174,215,219);
+padding:10px 20px;
+}
+
+.box a{
+text-decoration:none;
+color:black;
+}
+
+.container{
+width:450px;
+margin:40px auto;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:2px 2px 10px gray;
+}
+
+input,textarea{
+width:100%;
+padding:10px;
+margin-top:10px;
+margin-bottom:20px;
+}
+
+button{
+padding:10px 25px;
+background:green;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+footer{
+margin-top:30px;
+background:rgb(43,131,160);
+color:white;
+text-align:center;
+padding:15px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav class="navbar">
+        <div class="logo">
+            <img src='/Assisment_01_MiniHack/logo.jpeg' alt="Logo">
+        </div>  
+        <div class="box1" >
+            <p class="box">Home</p>
+            <p class="box">About</p>
+            <p class="box">Products</p>
+            <p class="box">Contact</p>
+        </div>
+    </nav>
+
+<div class="container">
+
+<h2>Contact Us</h2>
+
+<form>
+
+<label>Name</label>
+
+<input type="text" placeholder="Enter your name" required>
+
+<label>Email</label>
+
+<input type="email" placeholder="Enter your email" required>
+
+<label>Phone</label>
+
+<input type="tel" placeholder="Enter your phone number">
+
+<label>Message</label>
+
+<textarea rows="5" placeholder="Write your message"></textarea>
+
+<button type="submit">Submit</button>
+
+</form>
+
+</div>
+
+<footer>
+
+<p>Email : info@shardadryherbs.com</p>
+
+<p>Phone : +91 9876543210</p>
+
+<p> 2026 Sharda Dry Herbs</p>
+
+</footer>
+
+</body>
+</html>
